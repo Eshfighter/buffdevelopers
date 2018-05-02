@@ -1,0 +1,333 @@
+.home-page{
+    background-image: url('../../../public/images/background.svg');
+    height:100vh;
+    background-size: 100% 100%;
+    position: relative;
+    
+    .icon-text{
+        background-image: url('../../../public/images/iconLogo.svg');
+        background-size: 100% 100%;
+        height:272px;
+        width: 550px;
+        margin: auto;
+        top:14%;
+        position: relative;
+
+    }
+
+    .down-arrow{
+        background-image: url('../../../public/images/DownArrow.svg');
+        background-size: 100% 100%;
+        height:50px;
+        width: 50px;
+        margin: auto;
+        top:44%;
+        position: relative;
+        cursor: pointer;
+    }
+}
+
+.intro-page{
+
+    height:100vh;
+    position: relative;
+
+    .outer-navbar-wrapper{
+        margin: auto;
+        position: relative;
+        top: 7%;
+        height: 25%;
+
+        .inner-navbar-wrapper{
+            position: relative;
+            height:100%;
+
+            .icon-intro-page{
+                background-image: url('../../../public/images/iconIntroPage.svg');
+                background-size: 100% 100%;
+                height:60px;
+                width: 60px;
+                transition: all .4s ease-in-out;
+                position: relative;
+                margin: auto;
+            }
+
+            .nav-bar{
+                position: relative;
+                top:22%;
+                height: 35px;
+                transition: all 0.4s ease-in-out;
+                width: 80%;
+                margin-top: 3%;
+                margin-left: -6%;
+                display: inline-block;
+
+                nav{
+                    position: relative;
+                    float: none;
+
+                    ul{
+                        margin: 0 auto;
+                    }
+
+                    li:first-child{
+                        vertical-align: middle;
+                    }
+
+                    ul li{
+                        display: inline-block;
+                        margin-right: 60px;
+                        list-style-type: none;
+
+                        .icon-navbar{
+                            position: relative;
+                            float: none;
+                            height: 40px;
+                            width: 40px;
+                            display: block;
+         
+                             .icon-image-src{
+                                 position: relative;
+                                 opacity:0;
+                                 transition: all 0.4s ease-in-out;
+                                 height:100%;
+                                 width: 100%;
+                                 right:70px;
+                             }
+                         }
+            
+                        a{
+                            /* HOME ABOUT US OUR WO: */
+                            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+                            font-size: 16px;
+                            color: #58595B;
+                            letter-spacing: 0;
+                            display: block;
+                            padding: 6px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .slogan{
+        position: relative;
+        top:6%;
+        /* CAPTIVATING, INTUITI: */
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 38px;
+        color: #2A3741;
+        letter-spacing: 0;
+    }
+
+    .fun-fact{
+        position: relative;
+        top:10%;
+        /* “Do you know that it: */
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 13px;
+        color: #2A3741;
+        letter-spacing: 0;
+        width: 40%;
+        margin:auto;
+    }
+
+    .slogan-text{
+        position: relative;
+        width:80%;
+        top:22%;
+        display: table;
+        margin:auto;
+
+        .slogan-text-captivating{
+            display: table-cell;
+            padding-right:20px;
+            padding-left:20px;
+            width: 33%;
+            
+            .slogan-text-captivating-pic{
+                background-image: url('../../../public/images/captivatingIcon.svg');
+                background-size: 100% 100%;
+                height:50px;
+                width: 50px;
+                margin: auto;
+                position: relative;
+            }
+        }
+
+        .slogan-text-intuitive{
+            display: table-cell;
+            padding-right:20px;
+            padding-left:20px;
+            width: 33%;
+
+            .slogan-text-intuitive-pic{
+                background-image: url('../../../public/images/intuitiveIcon.svg');
+                background-size: 100% 100%;
+                height:50px;
+                width: 50px;
+                margin: auto;
+                position: relative; 
+            }
+        }
+
+        .slogan-text-simple{
+            display: table-cell;
+            padding-right:20px;
+            padding-left:20px;
+            width: 33%;
+
+            .slogan-text-simple-pic{
+                background-image: url('../../../public/images/simpleIcon.svg');
+                background-size: 100% 100%;
+                height:50px;
+                width: 50px;
+                margin: auto;
+                position: relative;
+            }
+        }
+    }
+}
+
+.testimonial-page{
+    background-image: url('../../../public/images/ThirdRectangle.png');
+    height:100vh;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.process-page{
+    height:100vh;
+    position: relative;
+
+    .process-page-title{
+        /* HOW IT WORKS?: */
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 40px;
+        color: #2A3741;
+        letter-spacing: 0;
+        position: relative;
+        top: 6%;
+    }
+
+    .process-diagram{
+        background-image: url('../../../public/images/processDiagram.svg');
+        background-size: 100% 100%;
+        height:156px;
+        width: 700px;
+        margin: auto;
+        position: relative;
+        top: 15%;
+    }
+
+    .process-free-text{
+        /* We are happy to give: */
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 27px;
+        color: #797B7D;
+        position: relative;
+        top: 27%;
+    }
+
+    .process-free-text-design{
+        /* Rectangle 8 Copy: */
+        width: 26%;
+        background: #FFFFFF;
+        border: 4px solid #899BA8;
+        padding:10px;
+        margin: auto;
+        position: relative;
+        top: 38%;
+        /* GET YOUR FREE DESIGN: */
+        a{
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 15px;
+            color: #6A7C92;
+            letter-spacing: 0;
+        }
+    }
+}
+
+.fixed-nav{
+
+    .inner-navbar-wrapper{
+        position:fixed !important;
+        top:0;
+        height: 75px !important;
+        margin: auto;
+        z-index: 999999;
+        width: 100% !important;
+        background: white;
+
+        .icon-intro-page{
+            // background-image: url('../../../public/images/iconIntroPage.svg');
+            // background-size: 100% 100%;
+            height:20px !important;
+            width: 20px !important;
+            transition: all .4s ease-in-out;
+            position: relative;
+            margin: auto;
+            opacity: 0;
+        }
+    
+        .nav-bar{
+            position: relative;
+            top:22%;
+            height: 35px;
+            transition: all 0.4s ease-in-out;
+            width: 80%;
+            margin-top: 0 !important;
+            margin-left: -6%;
+            display: inline-block;
+    
+            nav{
+                position: relative;
+                float: none;
+    
+                ul{
+                    margin: 0 auto;
+                }
+    
+                li:first-child{
+                    vertical-align: middle;
+                }
+    
+                ul li{
+                    display: inline-block;
+                    margin-right: 60px;
+                    list-style-type: none;
+    
+                    .icon-navbar{
+                        position: relative;
+                        float: none;
+                        height: 40px;
+                        width: 40px;
+                        display: block;
+     
+                         .icon-image-src{
+                             background-image: url('../../../public/images/iconIntroPage.svg');
+                             background-size: 100% 100%;
+                             position: relative;
+                             opacity:1 !important;
+                             transition: all 0.4s ease-in-out;
+                             height:100%;
+                             width: 100%;
+                             right:0px !important;
+                         }
+                     }
+        
+                    a{
+                        /* HOME ABOUT US OUR WO: */
+                        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+                        font-size: 16px;
+                        color: #58595B;
+                        letter-spacing: 0;
+                        display: block;
+                        padding: 6px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
